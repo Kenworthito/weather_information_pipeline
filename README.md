@@ -58,7 +58,7 @@ This project extracts weather data from the [National Weather Service API](https
 
 ## Architecture Diagram
 
-![Diagram](https://github.com/Kenworthito/weather_information_pipeline/tree/main/images/architecture-diagram.png)
+![Diagram](/images/architecture-diagram.png)
 
 ## Data Model
 
