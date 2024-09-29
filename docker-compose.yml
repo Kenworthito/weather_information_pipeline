@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   postgres:
     image: postgres:13
@@ -31,7 +29,7 @@ services:
       - ./requirements.txt:/requirements.txt
       - ./utils:/usr/local/airflow/utils
     env_file:
-      - /.env
+      - ./.env
 
     command: >
       bash -c "export PYTHONPATH=/usr/local/airflow:/usr/local/airflow/utils &&
@@ -55,7 +53,7 @@ services:
     ports:
       - "8501:8501"
     env_file:
-      - /.env
+      - ./.env
     volumes:
       - ./utils:/app/utils
       - ./logs:/app/logs

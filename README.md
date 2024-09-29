@@ -53,12 +53,12 @@ This project extracts weather data from the [National Weather Service API](https
    This command will start all necessary services, including the Airflow web server, PostgreSQL, and the Streamlit app.
 
 3. **Access the services:**
-   - Airflow: `http://localhost:8080`
+   - Airflow: `http://localhost:8080` (username: admin | password: admin)
    - Streamlit: `http://localhost:8501`
 
 ## Architecture Diagram
 
-![Diagram](/images/architecture-diagram.png)
+![Diagram](https://github.com/Kenworthito/weather_information_pipeline/tree/main/images/architecture-diagram.png)
 
 ## Data Model
 
