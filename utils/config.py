@@ -1,0 +1,5 @@
+API_BASE_URL = 'https://api.weather.gov'
+STATIONS_ENDPOINT = f'{API_BASE_URL}/stations'
+START_DATE_OFFSET = 7
+NUMBER_OF_STATIONS = 3
+BATCH_SIZE = 500
