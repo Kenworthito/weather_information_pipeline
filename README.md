@@ -40,7 +40,7 @@ This project extracts weather data from the [National Weather Service API](https
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/weather_information_pipeline.git
+   git clone https://github.com/kenworthito/weather_information_pipeline.git
    cd weather_information_pipeline
    ```
 
